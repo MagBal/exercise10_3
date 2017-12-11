@@ -67,7 +67,7 @@ img {
   	cursor: pointer;
   	font-size: 20px; 
 }
-.indicators li {
+.indicators .dots {
     list-style-type: none;
     background-color: transparent;
     border: 2px solid #FFF;
@@ -78,8 +78,5 @@ img {
     border-radius: 50%; 
 }
 .indicators .active {
-    background-color: #FFF; 
-}
-.dots .active {
     background-color: #FFF; 
 }
