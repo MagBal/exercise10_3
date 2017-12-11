@@ -1,0 +1,85 @@
+body {
+    background: #000;
+}
+.container {
+  	width: 100%;
+  	margin-top: 80px;
+  	text-align: center; 
+}
+.carousel-class {
+  	position: relative;
+  	margin: 0 auto;
+  	height: 500px;
+  	width: 800px;
+  	overflow: hidden;
+  	border: 2px solid #FFF; 
+}
+.carousel-list {
+  	width: 4000px;
+  	list-style-type: none;
+  	padding: 0;
+  	margin: 0; 
+}
+.carousel-list li {
+    float: left; 
+}
+img {
+  	width: 800px;
+  	height: 500px; 
+}
+.controllers {
+  	width: 800px;
+  	height: 500px;
+  	position: relative; 
+}
+.prev,
+.next {
+  	color: white;
+  	position: absolute;
+  	top: 48%;
+  	font-size: 30px;
+  	padding: 5px;
+  	cursor: pointer; 
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s; 
+}
+.next {
+  	right: 0;
+  	padding: 5px 12px; 
+}
+.next:hover {
+    border-radius: 5px 0 0 5px; 
+}
+.prev {
+  	left: 0;
+  	padding: 5px 12px; 
+}
+.prev:hover {
+    border-radius: 0 5px 5px 0; 
+}
+.indicators {
+  	position: absolute;
+  	bottom: 2%;
+  	left: 36%;
+  	cursor: pointer;
+  	font-size: 20px; 
+}
+.indicators li {
+    list-style-type: none;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    float: left;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+}
+.indicators .active {
+    background-color: #FFF; 
+}
+.dots .active {
+    background-color: #FFF; 
+}
