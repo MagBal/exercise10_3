@@ -1,9 +1,8 @@
 $(function() {
     var carouselList = $('#carousel .carousel-list'),
         nextButton = $('#next'),
-        prevButton = $('#prev');
-
-    var interval = null;
+        prevButton = $('#prev'),
+    	interval = null;
 
     function setTimerInterval() {
         interval = setInterval(changeSlides, 3000);
