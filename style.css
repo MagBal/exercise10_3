@@ -2,69 +2,69 @@ body {
     background: #000;
 }
 .container {
-  	width: 100%;
-  	margin-top: 80px;
-  	text-align: center; 
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
 }
 .carousel {
-  	position: relative;
-  	margin: 0 auto;
-  	height: 500px;
-  	width: 800px;
-  	overflow: hidden;
-  	border: 2px solid #FFF;
+    position: relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    border: 2px solid #FFF;
 }
 .carousel-list {
-  	width: 4000px;
-  	list-style-type: none;
-  	padding: 0;
-  	margin: 0; 
+    width: 4000px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 .carousel-list li {
-    float: left; 
+    float: left;
 }
 img {
-  	width: 800px;
-  	height: 500px; 
+    width: 800px;
+    height: 500px;
 }
 .change_bottom {
-  	width: 800px;
-  	height: 500px;
-  	position: relative; 
+    width: 800px;
+    height: 500px;
+    position: relative;
 }
 .prev,
 .next {
-  	color: white;
-  	position: absolute;
-  	top: 50%;
-  	font-size: 30px;
-  	padding: 5px;
-  	cursor: pointer; 
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
 }
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .next {
-  	right: 0;
-  	padding: 5px 12px; 
+    right: 0;
+    padding: 5px 12px;
 }
 .next:hover {
-    border-radius: 5px 0 0 5px; 
+    border-radius: 5px 0 0 5px;
 }
 .prev {
-  	left: 0;
-  	padding: 5px 12px; 
+    left: 0;
+    padding: 5px 12px;
 }
 .prev:hover {
-    border-radius: 0 5px 5px 0; 
+    border-radius: 0 5px 5px 0;
 }
 .dot {
-  	position: absolute;
-  	bottom: 2%;
-  	left: 36%;
-  	cursor: pointer;
-  	font-size: 20px; 
+    position: absolute;
+    bottom: 2%;
+    left: 36%;
+    cursor: pointer;
+    font-size: 20px;
 }
 .dot .dots {
     list-style-type: none;
@@ -74,8 +74,8 @@ img {
     margin-left: 5px;
     width: 15px;
     height: 15px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 .dot .active {
-    background-color: #FFF; 
+    background-color: #FFF;
 }
