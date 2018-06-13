@@ -1,1 +1,1 @@
-# exercise10_3
+# jQuery carousel
